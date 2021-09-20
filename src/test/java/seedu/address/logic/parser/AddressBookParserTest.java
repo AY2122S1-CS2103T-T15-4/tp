@@ -91,9 +91,8 @@ public class AddressBookParserTest {
 
     @Test
     public void parseCommand_remark() throws Exception {
-        assertTrue(parser.parseCommand(RemarkCommand.COMMAND_WORD) instanceof RemarkCommand);
+        assertTrue(parser.parseCommand(RemarkCommand.COMMAND_WORD + " 1") instanceof RemarkCommand);
     }
-
 
     @Test
     public void parseCommand_unrecognisedInput_throwsParseException() {
