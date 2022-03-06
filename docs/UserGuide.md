@@ -1076,6 +1076,7 @@ _Details coming soon ..._
 
 ## Command summary
 ### Category: Patron Commands
+
 Function | Format Of Command
 |--------|-------
 **Add a new patron** | `patron add n/NAME s/ID p/PHONE e/EMAIL [t/TAG]…​`
@@ -1083,7 +1084,9 @@ Function | Format Of Command
 **Edit a patron** | `patron edit INDEX [n/NAME] [s/ID] [p/PHONE] [e/EMAIL] [t/TAG]…​`
 **Find a patron** | `patron find n/KEYWORD [n/KEYWORD]…​`
 **Delete a patron** | `patron delete INDEX`
+
 ### Category: Book Commands
+
 Function | Format Of Command
 |--------|-------
 **Add a book** | `book add n/NAME i/ISBN [a/AUTHOR …] [t/CATEGORY_TAG …]`
@@ -1093,10 +1096,13 @@ Function | Format Of Command
 **Borrow a book** | `borrow INDEX1 INDEX2`
 **Return a book** | `return PREFIX/INDEX`
 **Request a book** | `request INDEX1 INDEX2`
+
 ### Category: General Commands
+
 Function | Format Of Command
 |--------|-------
 **Clear all entries** | `clear`
 **Exit the program** | `exit`
 **Show message to help page** | `help`
 **Navigating the different patrons/books** | **Clicking the :arrow_up and :arrow_down arrows on :keyboard**
+
